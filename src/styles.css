@@ -1,0 +1,74 @@
+body {
+  font-family: cerebri sans, helvetica, arial, sans-serif;
+  background: #f9f7fe;
+}
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.logo {
+  width: 120px;
+  margin: 20px;
+}
+.logo:hover {
+  cursor: pointer;
+}
+.search-button {
+  border-radius: 4px;
+  font-weight: bold;
+  color: white;
+  background-color: #885df1;
+  border: 1px solid #885df1;
+  padding: 10px 40px;
+}
+.search-button:hover {
+  cursor: pointer;
+}
+.search-input {
+  background-color: #f9f7fe;
+  border: none;
+  width: 300px;
+  padding: 12px;
+  border-radius: 4px;
+  margin: 10px;
+}
+hr {
+  color: #a9a5b3;
+}
+h1 {
+  font-size: 38px;
+}
+p {
+  color: #a9a5b3;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-around;
+}
+.conditions {
+  color: #ee608f;
+  font-weight: 400px;
+}
+.temperature {
+  margin: 20px;
+}
+.number {
+  font-size: 80px;
+  font-weight: bold;
+  padding: 0;
+}
+.celsius {
+  font-size: 20px;
+  position: relative;
+  top: -40px;
+  left: -5px;
+}
+p a {
+  color: #885df1;
+}
+footer {
+  font-size: 14px;
+}
